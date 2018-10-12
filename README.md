@@ -14,7 +14,7 @@ FluidProp can be used to define a property value with one or several linear inte
 ```
 html {
    
-   @include FluidProp-start('font-size', 320, 7);
+   @include FluidProp-start(font-size, 320, 7);
    @include FluidProp-step(1024, 10);
    @include FluidProp-step(1600, 12);
    @include FluidProp-end();
@@ -34,7 +34,7 @@ When the users viewport-width has reached 1600px the font-size will stay at 12px
 ```
 h1 {
    
-   @include FluidProp-start('font-size', 320, 7);
+   @include FluidProp-start(font-size, 320, 7);
    @include FluidProp-step(1024, 10);
    @include FluidProp-step(1600, 12);
    @include FluidProp-endless(.04);
@@ -51,7 +51,7 @@ From 1600px the font-size will grow with 4% of the viewport-width growth, meanin
 ```
 h1 {
    
-   @include FluidProp-start('margin-left', 320, 10);
+   @include FluidProp-start(margin-left, 320, 10);
    @include FluidProp-step(1024, 20);
    @include FluidProp-step(1600, 40);
    @include FluidProp-endless(.04);
