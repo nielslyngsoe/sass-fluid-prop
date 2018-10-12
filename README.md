@@ -43,7 +43,7 @@ h1 {
 ```
 
 In this example the font-size will growth endlessly from a viewport-width of 1600px and up.
-From 1600px the font-size will grow with 4% of the viewport-width growth, meaning that at a viewport-width of 1700px the font-size will be 17px (cause 4% of 100px is 4px).
+From 1600px the font-size will grow with 4% of the viewport-width growth, meaning that at a viewport-width of 1700px the font-size will be 16px (cause 4% of 100px is 4px).
 
 
 #### Example with other property types:
